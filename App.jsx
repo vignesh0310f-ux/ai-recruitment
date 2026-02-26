@@ -164,7 +164,7 @@ function safeParseJSON(raw) {
   throw new Error("Could not parse AI response as JSON. Please try again.");
 }
 
-const GEMINI_API_KEY = "AIzaSyBMeZYcsYUaBCo_trs_jkVsfx4X8NxGOog";
+const GEMINI_API_KEY = "AIzaSyAgMAmfz_a4qKUIC7Et_fbldnVcOJE-r_8";
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 async function callGemini(systemPrompt, userMessage) {
